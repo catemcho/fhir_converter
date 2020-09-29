@@ -1,11 +1,11 @@
 # fhir_converter
-The purpose of this program to convert from patients varients into FHIR json to the format that required by Pharmcat  
+The purpose of this program to convert from patients varients into FHIR json to the format that required by PharmCAT  
 This file was written by python, and the version is Python 3.7.6
 
 In order to use this fhir_converter.py, all files need to be in a same directory. There are two files that required for running this program.
-- PharmCAT conversion table
-  Contains the conversion between b37 SPDI to b38 SPDI
-- PharmCat Template table
+- PharmCAT conversion table (file name : "PharmCAT_0.7_conversions.csv"
+  Contains the conversion between b37 SPDI to b38 SPDI 
+- PharmCat Template table (file name: "pharmcat.v0.7.0.template_modified_ver2.vcf")
 
 Also, at the end of this program, it requires PharmCAT installed to achieve a final report from PharmCAT. 
   The installation and more informations about PharmCAT : https://github.com/PharmGKB/PharmCAT/wiki
