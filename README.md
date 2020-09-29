@@ -12,7 +12,7 @@ Also, at the end of this program, it requires PharmCAT installed to achieve a fi
 
 To run the program, use command line on a terminal: python3 fhir_converter.py FHIR_json_file_name
 
-The following are example: 
+As an example, if the FHIR json file name is "NA162.CYP2C19.fhir.json", the command line should be:
 ```
 $ python3 fhir_converter.py NA162.CYP2C19.fhir.json
 ```
